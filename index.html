@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shadan Institute of Computer Studies for Girls - Empowering Women through Higher Education in Computer Applications and Business Administration.">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Shadan Institute of Computer Studies for Girls</title>
+    <link rel="icon" type="image/x-icon" href="img/logo4.png">
+</head>
+<body>
+
+<!------Header----->
+    
+    <header>
+        <navbar class="flex items-center justify-around  bg-white h-30 px-2 w-auto">
+            <img src="img/logo4.png" class="w-24 md:w-26">
+            <h1 class="text-xl sm:text-2xl font-bold text-green-900  text-center md:text-28 mr-4 lg:text-3xl">
+            SHADAN INSTITUTE OF COMPUTER STUDIES FOR GIRLS
+            </h1> 
+            <div class="md:flex pr-4">
+                <img src="img/ou2.png" class="w-30 ">
+                <img src="img/ou1.png" class="w-16 ">
+            </div>
+        </navbar>
+
+          <!-- Navigation Bar -->
+  <nav class="bg-green-400  text-white shadow md:flex items-center justify-evenly">
+    <div class="max-w-7xl mx-auto py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+
+      <!-- LEFT SIDE -->
+      <div class="flex flex-row items-center justify-evenly gap-1">
+        <a href="index.html" class="px-2 py-1 lg:mx-6 hover:text-yellow-300">Home</a>
+
+        <!-- About Us with Dropdown -->
+    <div class="relative inline-block text-left">
+        <!-- Toggle Button -->
+        <button id="aboutToggle" class="flex items-center px-4 py-2  text-white hover:text-yellow-300 rounded  focus:outline-none">
+        About Us<span id="arrowIcon" class="ml-2 transition-transform duration-200">&#9662;</span>
+        </button>
+        <!-- Dropdown Menu -->
+        <ul id="aboutMenu"class="absolute left-0 mt-2 w-40 hidden bg-white text-black rounded shadow-md z-20">
+            <li><a href="about.html" target="_self" class="block px-4 py-2 hover:bg-green-300">About Us</a></li>
+            <li><a href="lab.html" class="block px-4 py-2 hover:bg-green-300">Computer Lab</a></li>
+            <li><a href="libeary.html" class="block px-4 py-2 hover:bg-green-300">Library</a></li>
+        </ul>
+    </div>
+
+
+
+        <a href="objective.html" class="px-2 py-1 lg:mx-6 hover:text-yellow-300">Objective</a>
+
+        <!-- Hamburger Icon (Mobile Only) -->
+        <button id="menu-toggle" class="sm:hidden focus:outline-none ml-2 ">
+          <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        </div>
+     
+
+         <!-- RIGHT SIDE MENU -->
+      <div id="mobile-menu" class="hidden sm:flex sm:flex-row sm:space-x-6 bg-green-100 text-black rounded mt-3 sm:mt-0 sm:bg-transparent sm:text-white sm:rounded-none sm:space-y-0 sm:p-0 p-4 space-y-2 ">
+        <a href="Admission.html" class="block px-2 py-1   lg:mx-6 hover:text-yellow-500">Admission Procedure</a>
+        <a href="Faculty.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Faculty</a>
+        <a href="Placements.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Placements</a>
+        <a href="Results.html" class="block px-2 py-1 lg:mx-6  hover:text-yellow-500">Results</a>
+        <a href="Events.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Events</a>
+        <a href="Contact.html" class="block px-2 py-1 lg:mx-6  hover:text-yellow-500">Contact Us</a>
+      </div>
+    </header>
+
+
+
+<!------Hero----->
+    <section id="hero" class="bg-[url(img/hero4.jpg)] bg-cover object-cover h-[30vh] flex items-center justify-center md:h-[40vh] lg:h-[60vh] ">
+            <H2 class="text-4xl text-center bold text-green-600 bg-sky-300/40 font-lob md:text-7xl lg:text-8xl">"Shadan — Where She Builds the Future."</H2>
+    </section>
+
+
+<!------About Us----->
+<section class="bg-gray-100 py-12 px-4">
+
+  <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300">
+    <h3 class="text-3xl font-semibold text-green-700 mb-4 text-center md:text-4xl">🏫 About Us</h3>
+    <img src="img/clg.jpeg" alt="college" class="m-auto">
+    <h2 class="mt-2 font-bold text-center text-2xl">Shadan Institute of Computer Studies for Girls</h2>
+    <p class="text-gray-700 leading-relaxed text-center font-bold mt-2">
+      Established in 1991, Shadan Institute of Computer Studies for Girls is a prestigious institution committed to providing quality higher education in the fields of Computer Applications and Business Administration. The college is <span class="text-green-700 font-semibold">exclusively for women</span> and empowers girls to excel academically, professionally, and personally in a supportive and inclusive environment.
+    </p>
+  </div>
+
+  <!-- Mission & Vision -->
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10 mt-10">Mission & Vision</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Mission Card -->
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold text-green-700 mb-4">🎯 Our Mission</h3>
+        <p class="text-gray-700 leading-relaxed text-center font-bold">
+          To deliver quality education, foster innovation, and empower young women with the skills needed to succeed in a competitive global environment.
+        </p>
+      </div>
+
+      <!-- Vision Card -->
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold text-blue-700 mb-4">🌟 Our Vision</h3>
+        <p class="text-gray-700 leading-relaxed text-center font-bold">
+          To be a center of academic excellence for women, producing skilled professionals and ethical leaders who contribute meaningfully to society.
+        </p>
+      </div>
+
+    </div>
+  </div>   
+
+</section>
+
+
+
+<!-- Footer -->
+<footer class="bg-green-700 text-white px-6 py-12">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">
+
+    <!-- Contact Info -->
+    <div class="flex-1">
+      <h4 class="text-xl font-semibold mb-4">Location – Shadan Institute of Computer Studies for Girls</h4>
+      <p><strong>Address:</strong> Khairatabad, Hyderabad - 500 004</p>
+      <p><strong>Tel:</strong> 66667272, 66667869</p>
+      <p><strong>Email:</strong> <a href="mailto:info@shadan.org" class="text-green-300 hover:underline">info@shadanmca.com </a></p>
+
+      <h4 class="text-lg font-semibold mt-6 mb-2">Follow Us</h4>
+      <div class="flex space-x-4 text-xl">
+        <a href="#"><i class="fab fa-facebook-f hover:text-blue-300"></i></a>
+        <a href="#"><i class="fab fa-twitter hover:text-blue-200"></i></a>
+        <a href="#"><i class="fab fa-instagram hover:text-pink-400"></i></a>
+        <a href="#"><i class="fab fa-linkedin hover:text-blue-400"></i></a>
+        <a href="#"><i class="fab fa-youtube hover:text-red-400"></i></a>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="flex-1">
+      <h4 class="text-xl font-semibold mb-4">Our Location</h4>
+      <div class="w-full h-64 rounded overflow-hidden shadow-md">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4510.962621373718!2d78.46070460000003!3d17.409187899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9763c77f5af9%3A0x83b9a2bbb019515c!2sShadan%20Institute%20of%20Management%20Studies%20for%20Girls%2FBoys!5e1!3m2!1sen!2sin!4v1752412542215!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+  </div>
+
+ <!-- Visitor Counter -->
+<div class="mt-8 flex flex-col items-center text-center">
+  <h4 class="text-lg font-semibold mb-2">Website Visitors</h4>
+  <a href="https://www.hitwebcounter.com" target="_blank">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=21148083&style=0049&nbdigits=5&type=page&initCount=0"
+      title="Counter Widget" alt="Visit counter For Websites" border="0" />
+  </a>
+</div>
+
+
+  <!-- Copyright -->
+  <div class="border-t border-green-800 mt-10 pt-6 text-center text-sm text-gray-300">
+    <p>© 2025 Shadan Educational Society. All Rights Reserved.</p>
+    <p>Designed & Deployed by <a href="https://www.linkedin.com/in/mujtaba-sayyed-519199260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-green-300 hover:underline">Mujtaba Sayyed</a> &  
+    <a href="#" class="text-green-300 hover:underline">Gulam Nayab</a></p>
+  </div>
+</footer>
+
+ 
+
+<script src="script.js"></script>    
+</body>
+</html>

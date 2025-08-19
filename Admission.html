@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Shadan PG College</title>
+    <link rel="icon" type="image/x-icon" href="img/logo4.png">
+</head>
+<body>
+
+<!------Header----->
+    
+    <header>
+        <navbar class="flex items-center justify-around  bg-white h-30 px-2 w-auto">
+            <img src="img/logo4.png" class="w-24 md:w-26">
+            <h1 class="text-xl sm:text-2xl font-bold text-green-900  text-center md:text-28 mr-4 lg:text-3xl">
+            SHADAN INSTITUTE OF COMPUTER STUDIES FOR GIRLS
+            </h1> 
+            <div class="md:flex pr-4">
+                <img src="img/ou2.png" class="w-30 ">
+                <img src="img/ou1.png" class="w-16 ">
+            </div>
+        </navbar>
+
+          <!-- Navigation Bar -->
+  <nav class="bg-green-400  text-white shadow md:flex items-center justify-evenly">
+    <div class="max-w-7xl mx-auto py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+
+      <!-- LEFT SIDE -->
+      <div class="flex flex-row items-center justify-evenly gap-1">
+        <a href="index.html" class="px-2 py-1 lg:mx-6 hover:text-yellow-300">Home</a>
+
+        <!-- About Us with Dropdown -->
+    <div class="relative inline-block text-left">
+        <!-- Toggle Button -->
+        <button id="aboutToggle" class="flex items-center px-4 py-2  text-white hover:text-yellow-300 rounded  focus:outline-none">
+        About Us<span id="arrowIcon" class="ml-2 transition-transform duration-200">&#9662;</span>
+        </button>
+        <!-- Dropdown Menu -->
+        <ul id="aboutMenu"class="absolute left-0 mt-2 w-40 hidden bg-white text-black rounded shadow-md z-20">
+            <li><a href="about.html" target="_self" class="block px-4 py-2 hover:bg-green-300">About Us</a></li>
+            <li><a href="lab.html" class="block px-4 py-2 hover:bg-green-300">Computer Lab</a></li>
+            <li><a href="libeary.html" class="block px-4 py-2 hover:bg-green-300">Library</a></li>
+        </ul>
+    </div>
+
+
+
+        <a href="objective.html" class="px-2 py-1 lg:mx-6 hover:text-yellow-300">Objective</a>
+
+        <!-- Hamburger Icon (Mobile Only) -->
+        <button id="menu-toggle" class="sm:hidden focus:outline-none ml-2 ">
+          <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        </div>
+     
+
+         <!-- RIGHT SIDE MENU -->
+      <div id="mobile-menu" class="hidden sm:flex sm:flex-row sm:space-x-6 bg-green-100 text-black rounded mt-3 sm:mt-0 sm:bg-transparent sm:text-white sm:rounded-none sm:space-y-0 sm:p-0 p-4 space-y-2 ">
+        <a href="Admission.html" class="block px-2 py-1   lg:mx-6 hover:text-yellow-500">Admission Procedure</a>
+        <a href="Faculty.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Faculty</a>
+        <a href="Placements.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Placements</a>
+        <a href="Results.html" class="block px-2 py-1 lg:mx-6  hover:text-yellow-500">Results</a>
+        <a href="Events.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Events</a>
+        <a href="Contact.html" class="block px-2 py-1 lg:mx-6  hover:text-yellow-500">Contact Us</a>
+      </div>
+    </header>
+
+<!-----Admission Procedure------>
+<section class="bg-gray-100 py-12 px-4 lg:justify-items-center-safe">
+
+  <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300  lg:w-[70%]  ">
+    
+  <div class="max-w-6xl mx-auto">
+    
+    <!-- Section Title -->
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-green-700 flex items-center gap-2">
+      <span>🎓</span> Admission Procedure – Shadan Institute of Computer Studies
+    </h2>
+
+    <!-- Intro -->
+    <p class="text-lg leading-relaxed mb-6">
+      The admission process for the <strong>Master of Computer Applications (MCA)</strong> and <strong>Master of Business Administration (MBA)</strong> programs is conducted in accordance with the norms set by the <strong>All India Council for Technical Education (AICTE)</strong> and <strong>Osmania University</strong>. Candidates are admitted through two main categories:
+    </p>
+
+    <!-- Convener Quota -->
+    <h3 class="text-2xl font-semibold text-green-700 mb-3 flex items-center gap-2">
+      🟢 1. Convener Quota (70%)
+    </h3>
+    <ul class="list-disc list-inside space-y-2 mb-6">
+      <li>70% of the total intake is filled based on the merit secured in the <strong>Integrated Common Entrance Test (ICET)</strong>.</li>
+      <li>ICET is conducted by the <strong>Andhra Pradesh State Council of Higher Education (APSCHE)</strong>.</li>
+      <li>Seat allotment is handled by the <strong>ICET Convener</strong> through centralized counseling.</li>
+      <li>Candidates must meet eligibility criteria set by the university and state authorities.</li>
+    </ul>
+
+    <!-- Management Quota -->
+    <h3 class="text-2xl font-semibold text-green-700 mb-3 flex items-center gap-2">
+      🟠 2. Management Quota (30%)
+    </h3>
+    <ul class="list-disc list-inside space-y-2 mb-6">
+      <li>The remaining 30% of seats are filled under the <strong>Management/NRI quota</strong>.</li>
+      <li>Admissions are carried out by the institution as per <strong>APSCHE and Osmania University guidelines</strong>.</li>
+      <li>Selection is based on <strong>merit, academic background</strong>, and any screening/interview process conducted by the institute.</li>
+    </ul>
+
+    <!-- Key Points -->
+    <h3 class="text-2xl font-semibold text-green-700 mb-3 flex items-center gap-2">
+      📌 Key Points to Note
+    </h3>
+    <ul class="list-disc list-inside space-y-2 mb-6">
+      <li>A bachelor's degree (minimum 3 years duration) is required.</li>
+      <li>Minimum aggregate percentage must meet university criteria.</li>
+      <li>The institute follows a <strong>transparent, fair, and merit-based admission process</strong>.</li>
+      <li>All reservations and quotas are applied as per <strong>government regulations</strong>.</li>
+    </ul>
+
+    <!-- Application Process -->
+    <h3 class="text-2xl font-semibold text-green-700 mb-3 flex items-center gap-2">
+      📝 Application Process
+    </h3>
+    <ul class="list-disc list-inside space-y-2">
+      <li>
+        Students applying through the <strong>Convener Quota</strong> should register for <strong>ICET</strong> via the official <a href="https://sche.ap.gov.in/ICET/" target="_blank" class="text-blue-600 underline hover:text-blue-800">APSCHE website</a>.
+      </li>
+      <li>
+        Candidates applying under the <strong>Management Quota</strong> should contact the college office directly for details, application forms, and deadlines.
+      </li>
+    </ul>
+    
+  </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-green-700 text-white px-6 py-12">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">
+
+    <!-- Contact Info -->
+    <div class="flex-1">
+      <h4 class="text-xl font-semibold mb-4">Location – Shadan Institute of Computer Studies for Girls</h4>
+      <p><strong>Address:</strong> Khairatabad, Hyderabad - 500 004</p>
+      <p><strong>Tel:</strong> 66667272, 66667869</p>
+      <p><strong>Email:</strong> <a href="mailto:info@shadan.org" class="text-green-300 hover:underline">info@shadanmca.com </a></p>
+
+      <h4 class="text-lg font-semibold mt-6 mb-2">Follow Us</h4>
+      <div class="flex space-x-4 text-xl">
+        <a href="#"><i class="fab fa-facebook-f hover:text-blue-300"></i></a>
+        <a href="#"><i class="fab fa-twitter hover:text-blue-200"></i></a>
+        <a href="#"><i class="fab fa-instagram hover:text-pink-400"></i></a>
+        <a href="#"><i class="fab fa-linkedin hover:text-blue-400"></i></a>
+        <a href="#"><i class="fab fa-youtube hover:text-red-400"></i></a>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="flex-1">
+      <h4 class="text-xl font-semibold mb-4">Our Location</h4>
+      <div class="w-full h-64 rounded overflow-hidden shadow-md">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4510.962621373718!2d78.46070460000003!3d17.409187899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9763c77f5af9%3A0x83b9a2bbb019515c!2sShadan%20Institute%20of%20Management%20Studies%20for%20Girls%2FBoys!5e1!3m2!1sen!2sin!4v1752412542215!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="border-t border-green-800 mt-10 pt-6 text-center text-sm text-gray-300">
+    <p>© 2025 Shadan Educational Society. All Rights Reserved.</p>
+    <p>Designed & Deployed by <a href="https://www.linkedin.com/in/mujtaba-sayyed-519199260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-green-300 hover:underline">Mujtaba Sayyed</a> &  
+    <a href="#" class="text-green-300 hover:underline">Gulam Nayab</a></p>
+  </div>
+</footer>
+
+
+
+
+
+ 
+
+<script src="script.js"></script>    
+</body>
+</html>

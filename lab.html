@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Shadan PG College</title>
+    <link rel="icon" type="image/x-icon" href="img/logo4.png">
+</head>
+<body>
+
+<!------Header----->
+    
+    <header>
+        <navbar class="flex items-center justify-around  bg-white h-30 px-2 w-auto">
+            <img src="img/logo4.png" class="w-24 md:w-26">
+            <h1 class="text-xl sm:text-2xl font-bold text-green-900  text-center md:text-28 mr-4 lg:text-3xl">
+            SHADAN INSTITUTE OF COMPUTER STUDIES FOR GIRLS
+            </h1> 
+            <div class="md:flex pr-4">
+                <img src="img/ou2.png" class="w-30 ">
+                <img src="img/ou1.png" class="w-16 ">
+            </div>
+        </navbar>
+
+          <!-- Navigation Bar -->
+  <nav class="bg-green-400  text-white shadow md:flex items-center justify-evenly">
+    <div class="max-w-7xl mx-auto py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+
+      <!-- LEFT SIDE -->
+      <div class="flex flex-row items-center justify-evenly gap-1">
+        <a href="index.html" class="px-2 py-1 lg:mx-6 hover:text-yellow-300">Home</a>
+
+        <!-- About Us with Dropdown -->
+    <div class="relative inline-block text-left">
+        <!-- Toggle Button -->
+        <button id="aboutToggle" class="flex items-center px-4 py-2  text-white hover:text-yellow-300 rounded  focus:outline-none">
+        About Us<span id="arrowIcon" class="ml-2 transition-transform duration-200">&#9662;</span>
+        </button>
+        <!-- Dropdown Menu -->
+        <ul id="aboutMenu"class="absolute left-0 mt-2 w-40 hidden bg-white text-black rounded shadow-md z-20">
+            <li><a href="about.html" target="_self" class="block px-4 py-2 hover:bg-green-300">About Us</a></li>
+            <li><a href="lab.html" class="block px-4 py-2 hover:bg-green-300">Computer Lab</a></li>
+            <li><a href="libeary.html" class="block px-4 py-2 hover:bg-green-300">Library</a></li>
+        </ul>
+    </div>
+
+
+
+        <a href="objective.html" class="px-2 py-1 lg:mx-6 hover:text-yellow-300">Objective</a>
+
+        <!-- Hamburger Icon (Mobile Only) -->
+        <button id="menu-toggle" class="sm:hidden focus:outline-none ml-2 ">
+          <svg class="w-6 h-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        </div>
+     
+
+         <!-- RIGHT SIDE MENU -->
+      <div id="mobile-menu" class="hidden sm:flex sm:flex-row sm:space-x-6 bg-green-100 text-black rounded mt-3 sm:mt-0 sm:bg-transparent sm:text-white sm:rounded-none sm:space-y-0 sm:p-0 p-4 space-y-2 ">
+        <a href="Admission.html" class="block px-2 py-1   lg:mx-6 hover:text-yellow-500">Admission Procedure</a>
+        <a href="Faculty.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Faculty</a>
+        <a href="Placements.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Placements</a>
+        <a href="Results.html" class="block px-2 py-1 lg:mx-6  hover:text-yellow-500">Results</a>
+        <a href="Events.html" class="block px-2 py-1 lg:mx-6 hover:text-yellow-500">Events</a>
+        <a href="Contact.html" class="block px-2 py-1 lg:mx-6  hover:text-yellow-500">Contact Us</a>
+      </div>
+    </header>
+
+<!------About Lab----->
+<section class="bg-gray-100 py-12 px-4 lg:justify-items-center-safe">
+  <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 lg:w-[70%]">
+    <h2 class="text-3xl font-bold text-green-700 text-center mb-10">
+      🖥️ Computer Lab – Empowering Future Women Technologists
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Text Content -->
+      <div class="space-y-6">
+        <p class="text-gray-700 text-lg">
+          At the Shadan Institute of Computer Studies for Girls, our <strong>Computer Lab</strong> is a vital hub where young women are equipped with cutting-edge skills, technical confidence, and the tools to thrive in the tech world. Designed to meet the demands of modern education and industry expectations, the lab provides a rich environment where girls can explore, practice, and excel in the world of computing.
+        </p>
+
+        <h3 class="text-xl font-semibold text-green-700">💡 Purpose & Importance</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Simulations and real-world modeling</li>
+          <li>Interactive teaching tools and software applications</li>
+          <li>Hands-on project development and coding exercises</li>
+        </ul>
+        <p class="text-gray-700">
+          This immersive approach prepares students to handle the dynamic needs of the tech industry with confidence and capability.
+        </p>
+
+        <h3 class="text-xl font-semibold text-green-700">🖥️ State-of-the-Art Infrastructure</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Latest high-speed systems and modern peripherals</li>
+          <li>Updated software tools and programming environments</li>
+          <li>Robust network and uninterrupted power backup</li>
+          <li>Sufficient lab hours for individual hands-on access</li>
+        </ul>
+        <p class="text-gray-700">
+          The facility supports excellent academic outcomes while preparing our girls to compete and excel in professional roles.
+        </p>
+
+        <h3 class="text-xl font-semibold text-green-700">🚀 Career Readiness</h3>
+        <p class="text-gray-700">
+          Emphasizing practical exposure, our lab ensures students graduate with both academic knowledge and real-world competence in fields such as software development, data analysis, and systems design — empowering them to break barriers and lead in the technology sector.
+        </p>
+      </div>
+
+      <!-- Image Content -->
+      <div class="grid grid-cols-2 gap-4">
+        <img src="img/lab1.jpg" alt="Computer Lab 1" class="rounded-lg shadow-md">
+        <img src="img/lab2.jpg" alt="Computer Lab 2" class="rounded-lg shadow-md">
+        <img src="img/lab3.jpg" alt="Computer Lab 3" class="rounded-lg shadow-md">
+        <img src="img/lab4.jpg" alt="Computer Lab 4" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="bg-green-700 text-white px-6 py-12">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">
+
+    <!-- Contact Info -->
+    <div class="flex-1">
+      <h4 class="text-xl font-semibold mb-4">Location – Shadan Institute of Computer Studies for Girls</h4>
+      <p><strong>Address:</strong> Khairatabad, Hyderabad - 500 004</p>
+      <p><strong>Tel:</strong> 66667272, 66667869</p>
+      <p><strong>Email:</strong> <a href="mailto:info@shadan.org" class="text-green-300 hover:underline">info@shadanmca.com </a></p>
+
+      <h4 class="text-lg font-semibold mt-6 mb-2">Follow Us</h4>
+      <div class="flex space-x-4 text-xl">
+        <a href="#"><i class="fab fa-facebook-f hover:text-blue-300"></i></a>
+        <a href="#"><i class="fab fa-twitter hover:text-blue-200"></i></a>
+        <a href="#"><i class="fab fa-instagram hover:text-pink-400"></i></a>
+        <a href="#"><i class="fab fa-linkedin hover:text-blue-400"></i></a>
+        <a href="#"><i class="fab fa-youtube hover:text-red-400"></i></a>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="flex-1">
+      <h4 class="text-xl font-semibold mb-4">Our Location</h4>
+      <div class="w-full h-64 rounded overflow-hidden shadow-md">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4510.962621373718!2d78.46070460000003!3d17.409187899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9763c77f5af9%3A0x83b9a2bbb019515c!2sShadan%20Institute%20of%20Management%20Studies%20for%20Girls%2FBoys!5e1!3m2!1sen!2sin!4v1752412542215!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="border-t border-green-800 mt-10 pt-6 text-center text-sm text-gray-300">
+    <p>© 2025 Shadan Educational Society. All Rights Reserved.</p>
+    <p>Designed & Deployed by <a href="https://www.linkedin.com/in/mujtaba-sayyed-519199260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-green-300 hover:underline">Mujtaba Sayyed</a> &  
+    <a href="#" class="text-green-300 hover:underline">Gulam Nayab</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>    
+</body>
+</html>

@@ -1,2 +1,2 @@
-# Girls
-Girls College Website 
+# Shadan-College
+creating a shadan college website 
